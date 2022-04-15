@@ -1,0 +1,23 @@
+pwd
+ls -l
+
+hadoop fs -get gs://map-reduce-ywalia007/mapreduce-1.0-SNAPSHOT.jar
+ls -l
+
+hadoop fs -get gs://map-reduce-ywalia007/words.txt
+ls -l
+
+hadoop fs -ls /user/yogwalia
+hadoop fs -mkdir /user/yogwalia/input
+hadoop fs -ls /user/yogwalia
+hadoop fs -put words.txt /user/yogwalia/input
+hadoop fs -ls /user/yogwalia
+
+Syntax: hadoop jar <jar-name> <main-class> <hdfs-input-folder> <hdfs-output-folder>
+hadoop jar mapreduce-1.0-SNAPSHOT.jar WordCountDriver /user/yogwalia/input /user/yogwalia/output
+
+hadoop fs -ls /user/yogwalia/output-1
+
+hadoop fs -cat /user/yogwalia/output-1/part-r-00000
+hadoop fs -cat /user/yogwalia/output-1/part-r-00001
+hadoop fs -cat /user/yogwalia/output-1/part-r-00002
