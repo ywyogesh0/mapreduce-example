@@ -44,6 +44,7 @@ Google_Cloud_Storage_Bucket.pptx
 Reference :-
 
 https://github.com/ywyogesh0/mapreduce-example
+https://pscode.lioncloud.net/yogwalia/mapreduce-example
 
 ===============================================================================================
 
