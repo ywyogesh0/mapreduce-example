@@ -1,5 +1,5 @@
 ===============================================================================================
-Word Count - Map Reduce example
+Max Stock Price - Map Reduce example
 ===============================================================================================
 
 
@@ -47,25 +47,25 @@ https://github.com/ywyogesh0/mapreduce-example
 
 ===============================================================================================
 
-6. Google Cloud Storage URL to download JAR and words.txt input file
+6. Google Cloud Storage URL to download JAR and read stocks.txt input file
 
 Reference :-
 
 https://storage.googleapis.com/map-reduce-ywalia007/mapreduce-1.0-SNAPSHOT.jar
-https://storage.googleapis.com/map-reduce-ywalia007/words.txt
+https://storage.googleapis.com/map-reduce-ywalia007/stocks.txt
 
 ===============================================================================================
 
-7. To see all the commands need to run Google Dataproc Cluser
+7. To see all the commands need to run Google Dataproc Cluster
 
 Reference :-
 
-wordcount_commands.txt
+stocks_commands.txt
 
 ===============================================================================================
 ===============================================================================================
 
-Main Class = WordCountDriver.java
+Main Class = StockPriceDriver.java
 
 ===============================================================================================
 ===============================================================================================
